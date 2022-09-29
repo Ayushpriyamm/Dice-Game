@@ -1,4 +1,6 @@
+ document.querySelector(".btn").addEventListener("click", start);
 //changing image for dice 2
+function start(){
 var randomNumber1=Math.floor(1+Math.random()*6);
 
 var randomDiceImage1="images/dice" + randomNumber1 + ".png";
@@ -21,4 +23,5 @@ else if (randomNumber2>randomNumber1) {
 }
 else{
   document.querySelector("h1").innerHTML="Draw !";
+}
 }
