@@ -12,6 +12,7 @@
 
 body {
   background-color: #393E46;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -25,17 +26,32 @@ h1 {
 p {
   font-size: 2rem;
   color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
 }
 
 img {
   width: 80%;
+}
+ 
+button:hover{
+  background-color: #59CE8F;
 }
 
 footer {
   margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+ 
 
+}
+footer p {
+  font-size: 1rem;
+}
+footer a {
+  color: #fff;
+
+}
+footer a:hover{
+  color: #59CE8F;
 }
